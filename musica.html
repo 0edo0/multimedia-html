@@ -1,49 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
-<body  style="background-image: url(https://i.pinimg.com/736x/cf/80/20/cf802004be036fb4c73ac145cdc6c598.jpg);">
-    <header><h1>musica</h1></header>
+
+<body style="background-image: url(https://i.pinimg.com/736x/cf/80/20/cf802004be036fb4c73ac145cdc6c598.jpg);">
+    <header>
+        <h1>musica</h1>
+    </header>
     <nav>
         <a href="index.html">inicio</a>
     </nav>
-    <main>
-        <nav>
-            <a href="#1">musica 1</a>
-            <a href="#2">musica 2</a>
-            <a href="#3">musica 3</a>
-            <a href="#4">musica 4</a>
-        </nav>
-        <div id="1">
-            <h2>musica</h2>
-            <audio src="audio/WhatsApp Audio 2025-04-24 at 8.39.47 AM (1).mpeg" controls></audio><br>
-        </div>
+    <main style="height: 80vh; display: flex;">
+        <section style="width: 40%;">
+            <nav>
+                <a href="#1">musica 1</a><br>
+                <a href="#2">musica 2</a><br>
+                <a href="#3">musica 3</a><br>
+                <a href="#4">musica 4</a>
+            </nav>
+        </section>
+        <section style="width: 50%;">
+            <div id="1">
+                <h2>musica</h2>
+                <audio src="audio/WhatsApp Audio 2025-04-24 at 8.39.47 AM (1).mpeg" controls></audio><br>
+            </div>
 
-        <div id="2">
-            <h2>musica 2</h2>
-            <audio src="audio/WhatsApp Audio 2025-04-24 at 8.39.47 AM.mpeg" controls></audio><br>
-        </div>
+            <div id="2">
+                <h2>musica 2</h2>
+                <audio src="audio/WhatsApp Audio 2025-04-24 at 8.39.47 AM.mpeg" controls></audio><br>
+            </div>
 
-        <div id="3">
-            <h2>musica 3</h2>
-            <audio src="audio/WhatsApp Audio 2025-04-24 at 8.39.48 AM (1).mpeg" controls></audio><br>
+            <div id="3">
+                <h2>musica 3</h2>
+                <audio src="audio/WhatsApp Audio 2025-04-24 at 8.39.48 AM (1).mpeg" controls></audio><br>
 
-        </div>
+            </div>
 
-        <div id="4">
-            <h2>musica 4</h2>
-            <audio src="audio/WhatsApp Audio 2025-04-24 at 8.39.48 AM.mpeg" controls></audio><br>
-        </div>
-
+            <div id="4">
+                <h2>musica 4</h2>
+                <audio src="audio/WhatsApp Audio 2025-04-24 at 8.39.48 AM.mpeg" controls></audio><br>
+            </div>
+        </section>
 
     </main>
-    <footer style="background-color: aliceblue;">
+    <section style="height: 25vh;">
+        <h2>formulario</h2>
+        <form>
+            <label for="nombre">Nombre del interesado:</label><br>
+            <input type="text" id="nombre" name="nombre" required placeholder="nombre"><br><br>
+            <label for="comentario">Comentario sobre su experiencia:</label><br>
+            <textarea id="comentario" name="comentario" placeholder="comentario"></textarea><br><br>
+            <button type="submit">Enviar</button>
+        </form>
+
+    </section>
+    <footer style="background-color: aliceblue; text-align: center;">
         <h3>este es una aplicacion de multimedia</h3>
         <h3>2025 - peru</h3>
     </footer>
 
 </body>
+
 </html>
