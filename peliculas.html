@@ -1,33 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
-<body  style="background-image: url(https://i.pinimg.com/736x/cf/80/20/cf802004be036fb4c73ac145cdc6c598.jpg);">
-    <header><h1>peliculas</h1></header>
+
+<body style="background-image: url(https://i.pinimg.com/736x/cf/80/20/cf802004be036fb4c73ac145cdc6c598.jpg);">
+    <header>
+        <h1>peliculas</h1>
+    </header>
     <nav>
         <a href="index.html">inicio</a>
     </nav>
 
-    <main>
-        <h2>el hombre araña</h2>
-        <img src="https://i.pinimg.com/736x/63/db/a6/63dba63621c7ef92ff9e69fc55758b96.jpg" alt="" width="200px"><br>
-        <a href="https://cuevana.biz/pelicula/557/spider-man"> pelicula completa</a>
+    <main style=" display: flex; flex-direction: column;">
+        <section style="display: flex; height: 50%;">
+            <div style="width: 30%;height: 350px; background: rgb(233, 233, 240);">
+                <ul>
+                    <li><a href="https://www.youtube.com/embed/dLfT13kVLxQ" target="visor">Operacion Zodiaco</a></li>
+                    <li><a href="https://www.youtube.com/embed/5WpZPea-Du0" target="visor">Los Indestructibles 2</a></li>
+                    <li><a href="https://www.youtube.com/embed/VAawTbtPwsk" target="visor">TRES LADR0NES Y UN BEBÉ</a></li>
+                </ul>
+            </div>
+            <div style="width: 70%; height: 350px; background: rgb(185, 191, 255); display: flex; text-align: center;">
+                <section style="width: 80%; background-color: aqua; ">
+                    <li >la operacion del zodiaco tiene una duracion de 1 <br>hora y 49 minutos </li><br>
+                    <img src="https://www.covercaratulas.com/ode/mini_mini/carteles-33842.jpg" alt="imagen1">
+                </section>
+                <section style="width: 80%;">
+                    <li>Los Indestructibles 2 tiene una duracion de 1 hora y 42 minutos</li><br>
+                    <img src="https://m.media-amazon.com/images/M/MV5BMWQ1ZTIxOTctMjM2Ni00MTI2LTkwMWItZWUxNmQ2MTNhNzk0XkEyXkFqcGc@._V1_QL75_UY281_CR4,0,190,281_.jpg" alt="imagen2" width="150">
+                </section>
+                <section style="width: 80%; background-color: aquamarine;">
+                    <li>TRES LADR0NES Y UN BEBÉ tiene una duracion de 2 horas y 2 minutos</li><br>
+                    <img src="https://m.media-amazon.com/images/M/MV5BZTk1ZjQyZjMtOTgxYy00YmUyLWE3MGYtY2Y4MDdjY2MzODAxXkEyXkFqcGc@._V1_.jpg" alt="imagen3" width="150">
+                </section>
 
-        <h2>El Increíble Hulk</h2>
-        <img src="https://i.pinimg.com/736x/cc/81/a6/cc81a6505bf46a28fbe1f33167b6c41d.jpg" alt="" width="200px"><br>
-        <a href="https://cuevana.biz/pelicula/1724/el-increible-hulk"> pelicula completa</a>
-
-        <h2>Guardianes de la Galaxia: Especial de las fiestas</h2>
-        <img src="https://i.pinimg.com/736x/ea/1f/95/ea1f9507dbea4e34f53327bc68d84ec9.jpg" alt="" width="200px"><br>
-        <a href="https://cuevana.biz/pelicula/774752/guardianes-de-la-galaxia-el-especial-de-las-fiestas"> pelicula completa</a>
-
+            </div>
+        </section>
+        <section style="height:500px; width: 100%; background-color: rgb(52, 40, 212);">
+            <iframe name="visor" src="about:blank" width="100%" height="100%" allowfullscreen style="border:none;"></iframe>
+        </section>
     </main>
-    <footer style="background-color: aliceblue;">
+
+    <section style="height: 40vh;">
+        <h2>formulario</h2>
+        <form>
+            <label for="nombre">Nombre del interesado:</label><br>
+            <input type="text" id="nombre" name="nombre" required placeholder="nombre"><br><br>
+            <label for="comentario">Comentario sobre su experiencia:</label><br>
+            <textarea id="comentario" name="comentario" placeholder="comentario"></textarea><br><br>
+            <button type="submit">Enviar</button>
+        </form>
+
+    </section>
+    <footer style="background-color: aliceblue; text-align: center;">
         <h3>este es una aplicacion de multimedia</h3>
         <h3>2025 - peru</h3>
+        <h3>institucion tupac amaru de cusco</h3>
+
     </footer>
 </body>
+
 </html>
